@@ -47,6 +47,7 @@ class _ExampleFourState extends State<ExampleFour> {
                             children: [
                               ReusbaleRow(title: 'Name', value: data[index]['name'].toString(),),
                               ReusbaleRow(title: 'UserName', value: data[index]['username'].toString(),),
+                              ReusbaleRow(title: 'Email', value: data[index]['email'].toString(),),
                               ReusbaleRow(title: 'Address', value: data[index]['address']['street'].toString(),),
                               ReusbaleRow(title: 'Geo', value: data[index]['address']['geo'].toString(),),
                               ReusbaleRow(title: 'Latitude', value: data[index]['address']['geo']['lat'].toString(),),
